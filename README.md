@@ -1,42 +1,18 @@
-# Angular QuickStart Source
-[![Build Status][travis-badge]][travis-badge-url]
+# AuthApp
 
-**This repository is now deprecated. The Angular Quickstart project was a nice starting point for creating Angular applications. Now we recommend using the [Angular CLI](https://github.com/angular/angular-cli) to create new Angular projects.**
+AuthApp is a web app deeloped using Angular2 and auth0 api(angular2-jwt). This is a general user authentication app through which users can sign-up or login using user name and password or using their existing social media account. Currently supported social media logins are Google and facebook.
 
-**Starting from 1 November 2017, all the Angular documentation, at [angular.io](https://angular.io), is based on the Angular CLI.**
+## Live Demo
 
-**Let's [get started](https://angular.io/guide/quickstart)**
+Live demo is available <a target="_blank" href="https://authapp-668bd.firebaseapp.com/">here.</a>
 
----
+## Instructions to run locally
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
-
-It's been extended with testing support so you can start writing tests immediately.
-
-**This is not the perfect arrangement for your application. It is not designed for production.
-It exists primarily to get you started quickly with learning and prototyping in Angular**
-
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
-
-## Updating to a newer version of the Quickstart Repo
-
-From time to time the QuickStart will be enhanced with support for new features or to reflect
-changes to the [official Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html).
-
-You can update your existing project to an up-to-date QuickStart by following these instructions:
-- Create a new project using the [instructions below](#create-a-new-project-based-on-the-quickstart)
-- Copy the code you have in your project's `main.ts` file onto `src/app/main.ts` in the new project
-- Copy your old `app` folder into `src/app`
-- Delete `src/app/main.ts` if you have one (we now use `src/main.ts` instead)
-- Copy your old `index.html`, `styles.css` and `tsconfig.json` into `src/`
-- Install all your third party dependencies
-- Copy your old `e2e/` folder into `e2e/`
-- Copy over any other files you added to your project
-- Copy your old `.git` folder into your new project's root
-
-Now you can continue working on the new project.
+1.Make sure you have the latest version of Node.js insttalled. You can get Node.js from <a target="_blank" href="https://nodejs.org/en/">here</a>  <br>
+2.Extract gitprofilesearch.rar in any directory of your choice.  <br>
+3.Run the command prompt in the directory where you extracted gitprofilesearch.rar.  <br>
+4.Run the command "npm install" without the quotes and wait for it to finish.  <br>
+5.Run the command "ng serve --open" without quotes and wait for it to finish. It will open the app in a browser page.  <br>
 
 ## Prerequisites
 
